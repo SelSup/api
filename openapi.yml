@@ -1,20 +1,14 @@
 openapi: 3.0.0
 info:
-  description: |
-  API SelSup — программный интерфейс для работы с сервисом SelSup.
-  Он даёт возможность работать со всеми функциями SelSup из вашей системы.
-  # Авторизация
-  Для использования API добавьте новый токен на странице
-  [https://selsup.ru/application/integration/pageApi](https://selsup.ru/application/integration/pageApi)
-  Добавленный токен необходимо передавать во всех запросах к API SelSup, в заголочке Authorization <токен>
+  description: API SelSup — программный интерфейс для работы с сервисом SelSup. Оно даёт возможность работать со всеми функциями SelSup из вашей системы. Для использования API добавьте новый токен на странице. Добавленный токен необходимо передавать во всех запросах к API SelSup, в заголочке Authorization"
   version: "1.0"
   title: Документация по SelSup API
   termsOfService: urn:tos
   contact:
     name: Поддержа API
-    email: admin@selsup.ru
+    email: "admin@selsup.ru"
   x-logo:
-    url: https://selsup.ru/wp-content/webp-express/webp-images/themes/selsup/i/logo.png.webp
+    url: "https://selsup.ru/wp-content/webp-express/webp-images/themes/selsup/i/logo.png.webp"
     altText: SelSup
   license:
     name: Apache 2.0
