@@ -365,35 +365,6 @@ paths:
           description: Forbidden
         "404":
           description: Not Found
-  /api/client/updateOzonCards:
-    post:
-      tags:
-        - Клиент
-      summary: updateOzonCards
-      operationId: updateOzonCardsUsingPOST
-      parameters:
-        - name: organizationId
-          in: query
-          description: organizationId
-          required: true
-          schema:
-            type: integer
-            format: int64
-      responses:
-        "200":
-          description: OK
-          content:
-            "*/*":
-              schema:
-                $ref: "#/components/schemas/TmsTask"
-        "201":
-          description: Created
-        "401":
-          description: Unauthorized
-        "403":
-          description: Forbidden
-        "404":
-          description: Not Found
   /api/client/updatePerson:
     post:
       tags:
